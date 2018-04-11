@@ -19,14 +19,6 @@
 */
 -->
 <resources>
-    <!-- IDs for each color mode. The values must match the corresponding constants in
-         android.view.Display -->
-    <integer-array name="color_mode_ids">
-        <item>0</item>
-        <item>-1</item>
-        <item>-1</item>
-    </integer-array>
-
     <!-- Wi-Fi AP band settings.  Enable 2.4GHz only. -->
     <string-array translatable="false" name="wifi_ap_band_config_full">
         <item>0</item>
