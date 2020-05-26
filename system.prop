@@ -90,9 +90,6 @@ persist.rild.nitz_short_ons_3=""
 # Sensors
 debug.sensors=1
 
-# Time
-persist.timed.enable=true
-
 # WFD
 wlan.wfd.hdcp=disable
 persist.debug.wfd.enable=1 
