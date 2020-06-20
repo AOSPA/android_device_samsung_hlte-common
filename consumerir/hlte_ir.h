@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
  * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2020 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,8 +16,8 @@
  * limitations under the License.
  */
 
-#ifndef SAMSUNG_CONSUMERIR_H
-#define SAMSUNG_CONSUMERIR_H
+#ifndef HLTE_CONSUMERIR_H
+#define HLTE_CONSUMERIR_H
 
 #include <android/hardware/ir/1.0/IConsumerIr.h>
 
@@ -49,4 +50,4 @@ static const std::vector<ConsumerIrFreqRange> consumerirFreqs = {
     {.min = 56000, .max = 56000},
 };
 
-#endif // SAMSUNG_CONSUMERIR_H
+#endif // HLTE_CONSUMERIR_H
