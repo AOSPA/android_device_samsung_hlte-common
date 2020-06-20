@@ -193,10 +193,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
-# ParanoidDoze
-PRODUCT_PACKAGES += \
-    ParanoidDoze
-
 # Power HAL
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service
@@ -216,6 +212,10 @@ PRODUCT_PACKAGES += \
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
+
+# SamsungDoze
+PRODUCT_PACKAGES += \
+    SamsungDoze
 
 # Sensors
 PRODUCT_COPY_FILES += \
