@@ -121,7 +121,7 @@ PRODUCT_COPY_FILES += \
 
 # IR HAL
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.samsung
+    android.hardware.ir@1.0-service.hlte
 
 # Keylayouts
 TARGET_USES_HARDWARE_KEYS := true
