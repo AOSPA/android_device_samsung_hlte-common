@@ -26,4 +26,13 @@
         <item>-1</item>
         <item>-1</item>
     </integer-array>
+
+    <!-- Wi-Fi AP band settings.  Enable 2.4GHz only. -->
+    <string-array translatable="false" name="wifi_ap_band_config_full">
+        <item>0</item>
+    </string-array>
+
+   <string-array translatable="false" name="wifi_ap_band_summary_full">
+        <item>@string/wifi_ap_choose_2G</item>
+    </string-array>
 </resources>
