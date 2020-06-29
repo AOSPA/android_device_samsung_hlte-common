@@ -86,7 +86,7 @@ endif
 
 # Display
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
-TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x02000000U
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x02000000U | 0x02002000U
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
