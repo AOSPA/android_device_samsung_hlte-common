@@ -52,7 +52,6 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$PA_ROOT" true
 
 extract "$MY_DIR"/common-proprietary-files.txt "$SRC"
-extract "$MY_DIR"/common-proprietary-files-twrp.txt "$SRC"
 
 COMMON_BLOB_ROOT="$PA_ROOT"/vendor/"$VENDOR"/"$DEVICE_COMMON"/proprietary
 
