@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "befccffa_bc6cbca4",
+        "filename": "sepolicy/vendor/nfc.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-09-10T01:52:03Z",
+      "side": 1,
+      "message": "Not a great rule",
+      "revId": "415769068992522ecffa7911b532c161a3168c66",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
